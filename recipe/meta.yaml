@@ -1,5 +1,5 @@
 {% set name = "kcrash" %}
-{% set version = "5.68.0" %}
+{% set version = "5.69.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kcrash-{{ version }}.tar.xz
-  sha256: 60daf2cee87c652619b098b688edce6f993c7960783159cd8be9d9145df29f7f
+  sha256: b6bc671e47a4cdb31c14965a1a68c7ac1a7e362c27e759ff41bd4c89e90cca40
 
 build:
   number: 0
