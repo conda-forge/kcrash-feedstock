@@ -45,9 +45,8 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kcrash/html/index.html
-  license: LGPL-v2.1-or-later
-  license_family: GPL
-  license_file: COPYING.LIB
+  license: LGPL-2.0-or-later
+  license_file: LICENSES/LGPL-2.0-or-later.txt
   summary: Graceful handling of application crashes
   description: |
     KCrash provides support for intercepting and handling application crashes.
